@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: left;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 540;
+  font-style: normal;
+}
+
+table {
+  border: 1px solid;
+  padding: 5px;
+  width: 60%;
+  text-align: center;
+  background-color: #faf1f1;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+td {
+  height: 25px;
+}
+thead {
+  background-color: rgb(117, 173, 228);
+  color: #fff;
+}
+
+tbody tr :hover {
+  background-color: rgb(30, 25, 25);
+  color: aliceblue;
+  cursor: cell;
+}
+section {
+  border: 1px solid #faf1f1;
+  float: right;
+  display: grid;
+  padding: 5px;
+  height: 150px;
+  background-color: #faf1f1;
+  color: #000;
+}
